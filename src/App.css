@@ -1,33 +1,163 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  width: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Application {
+  text-align: left;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hiddenContainer {
+  order: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sideContainer {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+.sideContainer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+  order: 2;
+  margin: 10px 10px 10px 20px;
+  width: 100%;
+}
+
+.trigger-icons {
+  border-radius: 0.3em;
+  margin: 30px 10px;
+  width: 70px;
+  height: 75px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition-duration: 0.5s;
+}
+
+.resume-doc {
+  width: 90%;
+}
+
+.video-demo-container {
+  padding-top: 20px;
+  order: 2;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.scanner-vid {
+  margin-top: 45px;
+}
+
+.icon {
+  width: 100px;
+  margin: 10px;
+  transition-duration: 0.5s;
+}
+
+.required {
+  border-radius: 10px;
+}
+
+.lang-icon {
+  width: 90px;
+  margin: 15px;
+}
+
+.lang-icon-four {
+  width: 70px;
+  margin: 10px;
+}
+
+.lang-icon-top {
+  width: 60px;
+  margin: 5px;
+}
+
+.home-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.college-detailed {
+  width: 100%;
+  overflow: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flatiron-detailed {
+  width: 100%;
+  overflow: scroll;
+}
+
+.workExp-detailed {
+  width: 100%;
+  overflow: scroll;
+}
+
+.icon-detailed {
+  width: 175px;
+  position: fixed;
+  transition-duration: 0.5s;
+}
+
+.icon-detailed:hover {
+  cursor: pointer;
+}
+
+.prof-pic {
+  width: 225px;
+  margin: 15px;
+}
+
+.top-row {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0.8);
+  transition-duration: 2s;
+}
+
+.top-row:active {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0);
+}
+
+.middle-row {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0.8);
+  transition-duration: 2s;
+}
+
+.middle-row:active {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0);
+}
+
+.bottom-row {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0.8);
+  transition-duration: 2s;
+}
+
+.bottom-row:active {
+  height: 160px;
+  background-color: rgb(195, 196, 206, 0);
+}
+
+.burger-button {
+  width: 25px;
+  margin-left: 90%;
+  margin-top: 5px;
+}
+
+.deets {
+  text-align: center;
+  width: 90%;
 }
